@@ -26,7 +26,14 @@ from langchain_core.messages import BaseMessage
 from langserve import add_routes
 
 # 1. Load Retriever
-loader = WebBaseLoader("https://www.promtior.ai/")
+URLs=[
+    'https://www.promtior.ai/',
+    'https://www.promtior.ai/service',
+    'https://www.promtior.ai/use-cases',
+    'https://www.promtior.ai/contacto'
+
+]
+loader = WebBaseLoader(URLs)
 docs = loader.load()
 text_splitter = RecursiveCharacterTextSplitter()
 documents = text_splitter.split_documents(docs)
