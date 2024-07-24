@@ -6,6 +6,7 @@
 - FastAPI
 - Uvicorn
 - LangChain and its dependencies
+- [Ollama](https://ollama.com) with the llama2 model server running
 
 ### Setup
 
@@ -25,10 +26,16 @@
     ```
     It's free to make an account
 
+
+3. Ensure Ollama and the llama2 model server are running:
+
+    - Follow the instructions on the [Ollama website](https://ollama.com) to set up and run the llama2 model server.
+
+
 ## Usage
 
 1. Start the FastAPI server:
 
-   Run run_server.py 
+   Run 'run_server.py' 
 
 2. Access the server at `http://localhost:8000/agent/playground/`
