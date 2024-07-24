@@ -6,7 +6,7 @@
 - FastAPI
 - Uvicorn
 - LangChain and its dependencies
-- [Ollama](https://ollama.com) with the llama2 model server running
+- [Ollama](https://ollama.com) with the LlaMA2 model
 
 ### Setup
 
@@ -29,7 +29,7 @@
 
 3. Ensure Ollama and the llama2 model server are running:
 
-    - Follow the instructions on the [Ollama website](https://ollama.com) to set up and run the llama2 model server.
+    - Follow the instructions on the [Ollama website](https://ollama.com) to set up and run the Ollama server with the LlaMA2 model.
 
 
 ## Usage
